@@ -8,5 +8,9 @@ public class ConversaoDeTemeperatura {
 		double resultado = (temperatura_f - FORMULA )* ELEMENTO;
 		System.out.println("O resultado da conversão de " + temperatura_f + "°f em celcius é:" + resultado + 
 		"°c");
+		temperatura_f = 1500;
+		resultado = (temperatura_f - FORMULA )* ELEMENTO;
+		System.out.println("O resultado da conversão de " + temperatura_f + "°f em celcius é:" + resultado + 
+				"°c");
 	}
 }
